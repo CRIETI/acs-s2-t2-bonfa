@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(16, 43, 141);
+    text-align: center;
+    margin: 100px calc(50% - 400px);
+}
+
+html * {
+    font-family: "Arial";
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    height: 80px;
+    line-height: 80px;
+}
+
+input, select {
+    min-width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 2px #bbb;
+    margin-bottom: 10px;
+}
+
+button, .button {
+    -webkit-appearance: none;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border:none;
+    border-radius: 3px;
+    color: #fff;
+    /*padding: 0 30px;*/
+    background-color: rgb(16, 43, 141);
+}
+
+.box {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 800px;
+    background: #fff;
+    box-shadow: 0 0 20px RGBA(0,0,0,1);
+}
+
+.tabela {
+    width: 90%;
+    margin: 5%;
+    border-collapse: collapse;
+}
+
+.tabela th {
+    background-color: #bbb;
+    line-height: 30px;
+    height: 30px;
+    border: solid 1px #999; 
+}
+
+.tabela td {
+    background-color: #fff;
+    line-height: 30px;
+    height: 30px;
+    border: solid 1px #bbb;
+}

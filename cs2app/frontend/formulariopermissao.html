@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema CRIE_TI - Editando permissão</title>
+  <link rel="stylesheet" href="assets/sistema.css">
+</head>
+<body>
+  <div class="box">
+    <h1>Editando permissão</h1>
+    <form id="formulario">
+      <label>Tipo:</label>
+      <select id="tipo" name="tipo">
+        <option value="C">Create</option>
+        <option value="R" >Read</option>
+        <option value="U" >Update</option>
+        <option value="D" >Delete</option>
+      </select>
+      <br>
+      <label>Pagina:</label>
+      <input type="text" id="idPagina" name="idPagina" required>
+      <br>
+
+      <a class="button" href="index.html">Voltar</a>
+      <button>Salvar</button>
+    </div>
+
+  </form>
+
+  <script src="formulariopermissao.js"></script>
+</body>
+</html>
